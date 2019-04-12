@@ -1,0 +1,40 @@
+[debug] [2018-11-08T09:15:50.911Z] ----------------------------------------------------------------------
+[debug] [2018-11-08T09:15:50.917Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\faisol.sefihara.VERMOUTH\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2018-11-08T09:15:50.918Z] CLI Version:   6.0.1
+[debug] [2018-11-08T09:15:50.918Z] Platform:      win32
+[debug] [2018-11-08T09:15:50.918Z] Node Version:  v6.5.0
+[debug] [2018-11-08T09:15:50.920Z] Time:          Thu Nov 08 2018 16:15:50 GMT+0700 (SE Asia Standard Time)
+[debug] [2018-11-08T09:15:50.920Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-11-08T09:15:51.033Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-11-08T09:15:51.034Z] > authorizing via signed-in user
+[debug] [2018-11-08T09:15:51.034Z] [iam] checking project cv-creative-center for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2018-11-08T09:15:51.039Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-11-08T09:15:51.040Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2018-11-08T09:15:51.270Z] <<< HTTP RESPONSE 200
+[debug] [2018-11-08T09:15:51.492Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/cv-creative-center:testIamPermissions  
+
+[debug] [2018-11-08T09:16:02.681Z] Error: getaddrinfo ENOTFOUND cloudresourcemanager.googleapis.com cloudresourcemanager.googleapis.com:443
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:76:26)
+[error] 
+[error] Error: Server Error. getaddrinfo ENOTFOUND cloudresourcemanager.googleapis.com cloudresourcemanager.googleapis.com:443
+[debug] [2018-11-08T09:16:09.761Z] ----------------------------------------------------------------------
+[debug] [2018-11-08T09:16:09.764Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\faisol.sefihara.VERMOUTH\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2018-11-08T09:16:09.764Z] CLI Version:   6.0.1
+[debug] [2018-11-08T09:16:09.764Z] Platform:      win32
+[debug] [2018-11-08T09:16:09.764Z] Node Version:  v6.5.0
+[debug] [2018-11-08T09:16:09.765Z] Time:          Thu Nov 08 2018 16:16:09 GMT+0700 (SE Asia Standard Time)
+[debug] [2018-11-08T09:16:09.765Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-11-08T09:16:09.791Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-11-08T09:16:09.792Z] > authorizing via signed-in user
+[debug] [2018-11-08T09:16:09.792Z] [iam] checking project cv-creative-center for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2018-11-08T09:16:09.794Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/cv-creative-center:testIamPermissions  
+
+[debug] [2018-11-08T09:16:21.000Z] Error: getaddrinfo ENOTFOUND cloudresourcemanager.googleapis.com cloudresourcemanager.googleapis.com:443
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:76:26)
+[error] 
+[error] Error: Server Error. getaddrinfo ENOTFOUND cloudresourcemanager.googleapis.com cloudresourcemanager.googleapis.com:443
